@@ -1,0 +1,87 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.parallax {
+  background-image: url("team.webp");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 30% 20%;
+  font-family: 'Lato', sans-serif;
+
+  h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px grey;
+    font-weight: bold;
+    font-size: calc(90px + 6 * ((100vw - 320px) / 680));
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+
+.bio {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+
+  .bio-content {
+    background: #ecf0f1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    grid-template-rows: 15% 20% 45% 20%;
+    padding-left: 20%;
+    padding-right: 15%;
+    text-align: justify;
+
+    .bio-content-symbol {
+      align-self: end;
+      h1 {
+        font-weight: 900;
+      }
+    }
+    .bio-content-title {
+      margin: auto 0;
+      font-size: calc(20px + 6 * ((100vw - 320px) / 600));
+      h2 {
+        font-weight: 600;
+      }
+    }
+    .bio-content-story {
+      margin: auto 0;
+      p {
+        margin-bottom: 20px;
+        line-height: 1.7;
+        font-size: calc(10px + 6 * ((100vw - 320px) / 600));
+      }
+    }
+    .bio-content-button {
+      margin: 8% 0;
+    }
+  }
+  .bio-picture {
+    background: #ecf0f1;
+    background-image: url("animated.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+}
+
+.vision, .mision {
+  text-align: justify;
+}
