@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+#submit-btn {
+  background-color: #34495e;
+  border-color: transparent;
+  transition: .3s;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+#submit-btn:hover {
+  color: #34495e;
+  border-color: transparent;
+  background-color: #fff
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  padding: 3rem 1.5rem 6rem;
+}
+
+.footer-info {
+  width: 30%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer-form {
+  width: 50%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.icons {
+  width: 85%;
+  margin: 0 auto
+}
+
+.icon-border {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border: 3px solid #000;
+  border-radius: 50%;
+  margin: 15px 15px 0 15px
+}
+
+.input {
+  box-sizing: border-box;
+  clear: both;
+  font-size: calc(16px + 6 * ((100vw - 320px)/ 680));
+  position:relative; text-align:left
+}
+
+.my-label:not(child) {
+  color: #363636;
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 7px;
+  margin-top: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.input {
+  max-width: 100%;
+  width: 100%;
+  min-height: 4em;
+  box-shadow: inset 0 0.0625em 0.125em rgba(10, 10, 10, 0.05);
+  border-radius: 4px;
+  color: #363636;
+  border: 1px solid transparent;
+  border-color: #bdbdbd;
+  padding-left: 8px;
+  font-size: 13px;
+}
+
+.input, .my-textarea, .select select {
+  background-color: white;
+  border-color: #dbdbdb;
+  border-radius: 4px;
+  color: #363636;
+}
+
+.my-textarea {
+  display: block;
+  max-width: 100%;
+  min-width: 100%;
+  padding: calc(0.75em - 1px);
+  resize: vertical;
+  max-height: 40em;
+  min-height: 8em;
+  font-size: 13px;
+  padding-left: 8px;
+}
