@@ -106,9 +106,8 @@ li > a:hover:before {
 
 .nav-picture {
   background: 0 0;
-  background-size:cover;
-  width:112px;
-  height:28px
+  background-image: url(bulma-logo.webp);
+  background-size: cover;
 }
 
 @media screen and (min-width:768px) and (max-width:1024px) {
@@ -126,8 +125,8 @@ li > a:hover:before {
    overflow: hidden
   }
   .nav div.show_list {
-   width: 100%;
-   height: auto;
+    width: 100%;
+    height: auto;
     display: none
   }
   .nav div.main_list ul {
@@ -367,6 +366,6 @@ li > a:hover:before {
 
 .affix {
   padding: 0;
-  background-color: #effffb;
+  background-color: #ecf0f1;
   opacity: .95
 }
