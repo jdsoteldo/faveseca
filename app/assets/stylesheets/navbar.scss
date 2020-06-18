@@ -350,19 +350,6 @@ li > a:hover:before {
   }
 }
 
-@keyframes outBtm {
-  0% {
-    transform:translateY(0) rotate(0);
-  }
-
-  50%{
-    transform:translateY(-9px) rotate(0);
-  }
-
-  100% {
-    transform:translateY(-9px) rotate(135deg);
-  }
-}
 
 .affix {
   padding: 0;
