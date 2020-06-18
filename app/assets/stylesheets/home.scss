@@ -85,3 +85,9 @@
 .vision, .mision {
   text-align: justify;
 }
+
+@media(max-width: 500px) {
+  .parallax {
+    background-image: url("https://faveseca.s3.amazonaws.com/team2.jpeg");
+  }
+}
