@@ -7,14 +7,14 @@
   margin-top: 3.5%
 }
 
-#navbar-a {
+#navbar-a, #navbar-b , #navbar-c , #navbar-d, #navbar-e {
   font-size: calc(12px + 6 * ((100vw - 320px)/ 600));
   font-family: 'Lato', sans-serif;
   color: #000;
   padding-bottom: 4%
 }
 
-#navbar-a:hover {
+#navbar-a, #navbar-b , #navbar-c , #navbar-d, #navbar-e:hover {
   background-color: transparent
 }
 
@@ -79,29 +79,29 @@ li > a:hover:before {
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 .nav div.main_list ul li {
   width: auto;
   height: 50px;
   padding: 0;
-  padding-left: 2rem
+  padding-left: 2rem;
 }
 
 .nav div.main_list ul li a {
   text-decoration :none;
-  line-height:50px
+  line-height: 50px;
 }
 .navTrigger {
-  display: none
+  display: none;
 }
 
 .nav {
   padding-top: 20px;
   padding-bottom: 20px;
   -webkit-transition: all .4s ease;
-  transition: all .4s ease
+  transition: all .4s ease;
 }
 
 .nav-picture {
@@ -198,14 +198,15 @@ li > a:hover:before {
   animation-direction: reverse;
 }
 
+
 .navTrigger.active i:nth-child(1) {
   -webkit-animation: inT .8s forwards;
-  animation: inT .8s forwards;
+  animation: inT .8s forwards
 }
 
 .navTrigger.active i:nth-child(2) {
   -webkit-animation: inM .8s forwards;
-  animation: inM .8s forwards;
+  animation: inM .8s forwards
 }
 
 .navTrigger.active i:nth-child(3) {
@@ -350,6 +351,19 @@ li > a:hover:before {
   }
 }
 
+@keyframes outBtm {
+  0% {
+    transform:translateY(0) rotate(0)
+  }
+
+  50%{
+    transform:translateY(-9px) rotate(0)
+  }
+
+  100% {
+    transform:translateY(-9px) rotate(135deg)
+  }
+}
 
 .affix {
   padding: 0;
