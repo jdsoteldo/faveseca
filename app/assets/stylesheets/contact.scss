@@ -14,7 +14,7 @@
 #submit-btn:hover {
   color: #34495e;
   border-color: transparent;
-  background-color: #fff
+  background-color: #fff;
 }
 
 .footer {
@@ -38,7 +38,7 @@
 
 .icons {
   width: 85%;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .icon-border {
@@ -49,14 +49,15 @@
   height: 55px;
   border: 3px solid #000;
   border-radius: 50%;
-  margin: 15px 15px 0 15px
+  margin: 15px 15px 0 15px;
 }
 
 .input {
   box-sizing: border-box;
   clear: both;
   font-size: calc(16px + 6 * ((100vw - 320px)/ 680));
-  position:relative; text-align:left
+  position: relative;
+  text-align: left;
 }
 
 .my-label:not(child) {
