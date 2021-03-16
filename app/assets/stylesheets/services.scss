@@ -146,6 +146,13 @@ div.content {
   background-color: #fff;
 }
 
+.more-btn {
+  text-align: center;
+  width: 15%;
+  margin: auto;
+  margin-bottom: 7vh;
+}
+
 @media (max-width: 425px) {
   .services-display {
     display: block;
@@ -181,5 +188,9 @@ div.content {
 
   .card-width {
     width: 85%;
+  }
+
+  .more-btn {
+    width: 45%;
   }
 }
