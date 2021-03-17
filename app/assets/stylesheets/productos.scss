@@ -6,6 +6,20 @@
   color: #000;
 }
 
+.first-row  {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+.second-row {
+  @extend .first-row;
+  width: 60%;
+  margin-bottom: 10vh;
+}
+
 .fade-in {
   animation: fadeIn ease 2.5s;
   -webkit-animation: fadeIn ease 2.5s;
@@ -57,5 +71,20 @@
   .table {
     width: 80%;
     margin: auto;
+  }
+
+  .first-row {
+    display: block;
+  }
+
+  .card {
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+  }
+
+  .second-row {
+    @extend .first-row;
+    width: 80%;
   }
 }
