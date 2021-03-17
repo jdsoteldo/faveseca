@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_16_191431) do
+ActiveRecord::Schema.define(version: 2021_03_17_022747) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,6 +23,13 @@ ActiveRecord::Schema.define(version: 2021_03_16_191431) do
     t.string "mensaje"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "cantidad_piezas"
+    t.string "tipo_tejido"
+    t.string "tipo_enganche"
+    t.float "diametro_alambre"
+    t.float "medida_agujero"
+    t.float "ancho_cedazo"
+    t.float "largo_enganche"
   end
 
 end
