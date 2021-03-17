@@ -1,0 +1,90 @@
+.prod-intro {
+  text-align: center;
+  padding: 10vh 0;
+  text-decoration: underline;
+  background-color: #ecf0f1;
+  color: #000;
+}
+
+.first-row  {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+.second-row {
+  @extend .first-row;
+  width: 60%;
+  margin-bottom: 10vh;
+}
+
+.fade-in {
+  animation: fadeIn ease 2.5s;
+  -webkit-animation: fadeIn ease 2.5s;
+  -moz-animation: fadeIn ease 2.5s;
+  -o-animation: fadeIn ease 2.5s;
+  -ms-animation: fadeIn ease 2.5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.prod-texto {
+  width: 55%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.table {
+  width: 60%;
+  margin: auto;
+}
+
+
+@media(max-width: 400px){
+  .table {
+    width: 80%;
+    margin: auto;
+  }
+
+  .first-row {
+    display: block;
+  }
+
+  .card {
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+  }
+
+  .second-row {
+    @extend .first-row;
+    width: 80%;
+  }
+}
